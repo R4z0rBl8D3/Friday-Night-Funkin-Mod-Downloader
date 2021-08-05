@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnfModDownloaderWPF", "FnfModDownloaderWPF\FnfModDownloaderWPF.csproj", "{E972A3A0-7903-43EA-B4D8-5221253EACC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E972A3A0-7903-43EA-B4D8-5221253EACC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E972A3A0-7903-43EA-B4D8-5221253EACC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E972A3A0-7903-43EA-B4D8-5221253EACC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E972A3A0-7903-43EA-B4D8-5221253EACC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A39AEB2D-42F6-4575-A93E-4292DA97D05C}
+	EndGlobalSection
+EndGlobal

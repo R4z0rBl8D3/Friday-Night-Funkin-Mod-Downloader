@@ -1,0 +1,16 @@
+﻿<Window x:Class="FnfModDownloaderWPF.DownloadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FnfModDownloaderWPF"
+        mc:Ignorable="d"
+        Title="DownloadWindow" Height="105" Width="300">
+    <Grid>
+        <Label Content="Downloading..." HorizontalAlignment="Left" Margin="0,-6,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="280" Margin="0,24,0,0"/>
+        <Label x:Name="PercentLbl" Content="0%" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="290" Margin="0,20,0,0"/>
+        <Label x:Name="StatusLbl" Content="Status:" HorizontalAlignment="Left" Height="23" Margin="0,49,0,0" VerticalAlignment="Top" Width="280" FontSize="8"/>
+
+    </Grid>
+</Window>

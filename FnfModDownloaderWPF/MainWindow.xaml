@@ -1,0 +1,30 @@
+﻿<Window x:Class="FnfModDownloaderWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FnfModDownloaderWPF"
+        mc:Ignorable="d"
+        Title="Fnf Mod Downloader (WPF Version)" Height="332" Width="510">
+    <Grid>
+
+        <Label x:Name="DownloadLbl" Content="Download" HorizontalAlignment="Left" Margin="243,30,0,0" VerticalAlignment="Top" FontSize="24" Visibility="Visible"/>
+        <Label x:Name="LinkLbl" Content="Link" HorizontalAlignment="Left" Margin="100,80,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Visible"/>
+        <Label x:Name="NameLbl" Content="Name" HorizontalAlignment="Left" Margin="100,120,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Visible"/>
+        <Label x:Name="DirLbl" Content="Directory" HorizontalAlignment="Left" Margin="100,160,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Visible"/>
+        <TextBox x:Name="LinkTxt" HorizontalAlignment="Left" Margin="137,84,0,0" Text="" TextWrapping="NoWrap" VerticalAlignment="Top" Width="353" FontSize="15" Visibility="Visible"/>
+        <TextBox x:Name="NameTxt" HorizontalAlignment="Left" Margin="150,124,0,0" Text="" TextWrapping="NoWrap" VerticalAlignment="Top" Width="340" FontSize="15" Visibility="Visible"/>
+        <TextBox x:Name="DirTxt" HorizontalAlignment="Left" Margin="170,168,0,0" Text="" TextWrapping="NoWrap" VerticalAlignment="Top" Width="320" FontSize="15" Visibility="Visible"/>
+        <RadioButton x:Name="ZipRBtn" Content="Zip file" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Visible"/>
+        <RadioButton x:Name="SevenZRBtn" Content="7z file" HorizontalAlignment="Left" Margin="100,230,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Visible"/>
+        <Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" Margin="322,250,0,0" VerticalAlignment="Top" Height="40" Width="168" FontSize="20" Background="Lime" Click="StartDownload" Visibility="Visible"/>
+        <Button x:Name="SetDirDownload" Content="Set to downloads" HorizontalAlignment="Left" Margin="388,190,0,0" VerticalAlignment="Top" Width="102" Click="SetDirDownloads" Visibility="Visible"/>
+        <Label Content="Friday Night Funkin'" HorizontalAlignment="Left" Height="39" Margin="-4,0,0,0" VerticalAlignment="Top" Width="190" FontSize="20"/>
+        <Label Content="Mod Downloader" HorizontalAlignment="Left" Height="31" Margin="26,30,0,0" VerticalAlignment="Top" Width="160" FontSize="15"/>
+        <Button x:Name="ManageBtn" Content="Manage" HorizontalAlignment="Left" Height="40" Margin="10,84,0,0" VerticalAlignment="Top" Width="70" Click="ManageBtn_Click"/>
+        <Button x:Name="ListBtn" Content="List" HorizontalAlignment="Left" Height="40" Margin="10,0,0,0" VerticalAlignment="Center" Width="70" Click="ListBtn_Click"/>
+
+
+
+    </Grid>
+</Window>
